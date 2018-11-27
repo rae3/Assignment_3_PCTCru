@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <title>Starter Page</title>
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <!-- Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Penn College Cru</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse w-100" id="navbarNavDropdown">
+                      <ul class="navbar-nav mx-4 w-100">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Events &amp; Media
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Upcoming</a>
+                            <a class="dropdown-item" href="#">Annual Conferences</a>
+                            <a class="dropdown-item" href="#">Photo Gallery</a>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contact</a>
+                        </li>
+                      </ul>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
+                            Login
+                          </button>
+                    </div>
+                  </nav>
+        <!-- Container -->
+  <div>
+      <img class="w-100" src="assets/worship.jpg" title="Worship" alt="worship">
+  </div>
+        <div class="container">
+            <!-- Header -->
+            <div class="row">
+                <div id="intro" class="col py-3 text-center">
+                    <img src="assets/cru_logo.png" alt="Cru Logo" class="my-4">
+                    <h3>Penn College</h3>
+                </div>
+            </div>
+            <br>
+            <!-- Informative Links -->
+            <div class="row py-3 text-center">
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Our Mission</h5>
+                          <p class="card-text">To Win People to Christ, Build Them In Their Faith, and Send Them Into The World To Glorify God.</p>
+                          <a href="#" class="card-link">Learn More</a>
+                          <a href="#" class="card-link">Get Involved</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">Our Team</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="card-link">Meet Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                  <h5 class="card-title">Who Is Jesus</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="card-link">Find Out More</a>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+            <hr class="my-5">
+            <!-- Jumbotron -->
+            <div class="row">
+            <div class="jumbotron">
+                    <h1 class="display-4">Hello, world!</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr class="my-4">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div>
+            </div>
+
+        </div>
+        <!-- Footer -->
+        <div class="w-100 bg-dark text-light py-5 text-center">
+            <p>Footer</p>
+        </div>
+        <!-- Modals -->
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <!-- Scripts -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
